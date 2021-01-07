@@ -39,14 +39,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------|------+------+------+------+------+------|
  * | Shift|   Z  |   X  |   C  |   V  |   B  |   N  |   M  |   ,  |   .  |   /  |Enter |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * | Ctrl | GUI  | Alt  |Adjust|Lower |Space |Space |Raise | Left | Down |  Up  |Right |
+ * | Ctrl | GUI  | Alt  |  FN  |Lower |Space |Space |Raise | Left | Down |  Up  |Right |
  * `-----------------------------------------------------------------------------------'
  */
 [_QWERTY] = LAYOUT_ortho_4x12( \
   KC_TAB,  FI_Q,    FI_W,    FI_E,    FI_R,    FI_T,    FI_Y,    FI_U,    KC_I,    FI_O,    FI_P,    KC_BSPC, \
   KC_ESC,  FI_A,    FI_S,    FI_D,    FI_F,    FI_G,    FI_H,    FI_J,    FI_K,    FI_L,    SCLN,    QUOT, \
   KC_LSFT, FI_Z,    FI_X,    FI_C,    FI_V,    FI_B,    FI_N,    FI_M,    COMM,    DOT,     SLSH,    KC_ENT , \
-  KC_LCTL, KC_LGUI, KC_LALT, ADJUST,  LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT \
+  KC_LCTL, KC_LGUI, KC_LALT, FN,  LOWER,   KC_SPC,  KC_SPC,  RAISE,   KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT \
 ),
 
 /* Colemak
